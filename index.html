@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Glamping Tawangmangu - Glamping & Villa Mewah</title>
+    <meta name="description" content="Nikmati pengalaman glamping dan villa mewah di Tawangmangu dengan pemandangan alam yang menakjubkan. Booking mudah via WhatsApp!">
+    
+    <!-- Font dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Architects+Daughter&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Pesona Glamping</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="#beranda">Beranda</a>
+                <a href="#keunggulan">Keunggulan</a>
+                <a href="#akomodasi">Akomodasi</a>
+                <a href="#fasilitas">Fasilitas</a>
+                <a href="#reservasi">Reservasi</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Pesona Glamping Tawangmangu</h1>
+            <p>Nikmati pengalaman menginap mewah di tengah alam dengan pemandangan gunung yang menakjubkan</p>
+            <a href="#akomodasi" class="cta-button">Lihat Akomodasi</a>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="keunggulan" class="advantages">
+        <div class="container">
+            <h2>Mengapa Memilih Pesona Glamping?</h2>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="advantage-icon">🏔️</div>
+                    <h3>Pemandangan Menakjubkan</h3>
+                    <p>View pegunungan dan hamparan hijau yang memukau langsung dari akomodasi Anda</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">🏕️</div>
+                    <h3>Glamping Premium</h3>
+                    <p>Tenda mewah dilengkapi fasilitas hotel bintang 5 untuk kenyamanan maksimal</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">🌿</div>
+                    <h3>Udara Sejuk Alami</h3>
+                    <p>Udara pegunungan yang segar dan sejuk, ideal untuk relaksasi dan healing</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">📱</div>
+                    <h3>Booking Mudah</h3>
+                    <p>Reservasi praktis melalui WhatsApp dengan respons cepat dan ramah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="akomodasi" class="properties">
+        <div class="container">
+            <h2>Pilihan Akomodasi</h2>
+            <p class="section-subtitle">Temukan akomodasi yang sempurna untuk liburan Anda</p>
+            <div id="properties-grid" class="properties-grid">
+                <!-- Properties akan di-load oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="fasilitas" class="facilities">
+        <div class="container">
+            <h2>Fasilitas Unggulan</h2>
+            <p class="section-subtitle">Nikmati berbagai fasilitas premium untuk kenyamanan Anda</p>
+            <div id="facilities-grid" class="facilities-grid">
+                <!-- Facilities akan di-load oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="reservasi" class="booking">
+        <div class="container">
+            <h2>Reservasi Sekarang</h2>
+            <p class="section-subtitle">Hubungi kami melalui WhatsApp untuk reservasi mudah dan cepat</p>
+            
+            <form id="booking-form" class="booking-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon</label>
+                    <input type="tel" id="telepon" name="telepon" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkin">Check-in</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Check-out</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tamu">Jumlah Tamu</label>
+                        <select id="tamu" name="tamu" required>
+                            <option value="">Pilih jumlah tamu</option>
+                            <option value="1">1 Orang</option>
+                            <option value="2">2 Orang</option>
+                            <option value="3">3 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="5+">5+ Orang</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="akomodasi">Jenis Akomodasi</label>
+                        <select id="akomodasi" name="akomodasi" required>
+                            <option value="">Pilih akomodasi</option>
+                            <option value="Glamping Tent">Glamping Tent</option>
+                            <option value="Villa Premium">Villa Premium</option>
+                            <option value="Villa Family">Villa Family</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="catatan">Catatan Khusus (Opsional)</label>
+                    <textarea id="catatan" name="catatan" rows="3" placeholder="Permintaan khusus atau informasi tambahan..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    <span>💬</span>
+                    Kirim ke WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@pesonaglamping.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Tawangmangu, Karanganyar, Jawa Tengah</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <p>📍 Lokasi di Google Maps</p>
+                        <p>Tawangmangu, Karanganyar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pesona Glamping Tawangmangu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Detail Modal -->
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h3 id="modal-title">Detail Unit</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content" class="modal-detail-content">
+                    <!-- Detail akan di-load oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
