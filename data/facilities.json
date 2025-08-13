@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "fas fa-wifi",
+    "title": "Free WiFi",
+    "description": "Internet cepat di seluruh area"
+  },
+  {
+    "icon": "fas fa-utensils",
+    "title": "Restaurant",
+    "description": "Makanan lezat & minuman segar"
+  },
+  {
+    "icon": "fas fa-car",
+    "title": "Parking",
+    "description": "Area parkir luas & aman"
+  },
+  {
+    "icon": "fas fa-swimming-pool",
+    "title": "Swimming Pool",
+    "description": "Kolam renang dengan view gunung"
+  },
+  {
+    "icon": "fas fa-campground",
+    "title": "Outdoor Activities",
+    "description": "Hiking, camping & adventure"
+  },
+  {
+    "icon": "fas fa-spa",
+    "title": "Spa & Wellness",
+    "description": "Relaksasi di tengah alam"
+  },
+  {
+    "icon": "fas fa-fire",
+    "title": "Bonfire Area",
+    "description": "Api unggun & BBQ bersama"
+  },
+  {
+    "icon": "fas fa-mountain",
+    "title": "Mountain View",
+    "description": "Pemandangan pegunungan menawan"
+  },
+  {
+    "icon": "fas fa-gamepad",
+    "title": "Game Corner",
+    "description": "Area bermain & hiburan keluarga"
+  },
+  {
+    "icon": "fas fa-bicycle",
+    "title": "Bike Rental",
+    "description": "Sewa sepeda untuk explore area"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "villa-1",
+    "name": "Villa Pesona",
+    "type": "villa",
+    "price": "Rp 1.200.000",
+    "capacity": "6-8 orang",
+    "description": "Villa mewah dengan pemandangan gunung yang menakjubkan, dilengkapi dengan fasilitas lengkap untuk keluarga besar.",
+    "features": ["AC", "TV LED 55\"", "Kitchen Set", "Private Pool", "BBQ Area", "Free WiFi"],
+    "mainImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    "gallery": [
+      "https://images.unsplash.com/photo-1560448204-e1a3ecba47d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+    ]
+  },
+  {
+    "id": "glamping-1",
+    "name": "Glamping Azalea",
+    "type": "glamping",
+    "price": "Rp 750.000",
+    "capacity": "2-6 orang",
+    "description": "Glamping premium dengan fasilitas lengkap, cocok untuk keluarga kecil dan pasangan. Pas untuk honeymoon! 😍🥰",
+    "location": "Pleseran, Tawangmangu",
+    "units": "5",
+    "suitableFor": "Keluarga kecil, dan Pasangan suami istri",
+    "checkIn": "2 siang",
+    "checkOut": "12",
+    "features": [
+      "Bed UK 160x200",
+      "1 Kamar mandi dengan water heater", 
+      "Smart TV 43\"",
+      "Free Wi-Fi",
+      "Tersedia mini kitchen",
+      "Alat masak dan makan lengkap",
+      "Handuk + Amenities",
+      "Cermin + hair dryer",
+      "Free 2 pax sarapan",
+      "Welcome drink (teh, gula, kopi)",
+      "Dispenser (panas, biasa, dingin)"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    "gallery": [
+      "https://images.unsplash.com/photo-1572986893272-9b2b7a4bc0b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1633123353036-61bcad18fb68?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1526491109672-74240d35c21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+    ]
+  },
+  {
+    "id": "glamping-2",
+    "name": "Glamping Safari",
+    "type": "glamping",
+    "price": "Rp 650.000",
+    "capacity": "2-3 orang",
+    "description": "Tenda safari yang nyaman dengan konsep back-to-nature namun tetap mewah dan modern.",
+    "features": ["Fan", "Kasur Double", "Shared Bathroom", "Breakfast", "Nature View"],
+    "mainImage": "https://images.unsplash.com/photo-1496947850313-7743325fa58c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    "gallery": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+    ]
+  },
+  {
+    "id": "glamping-3",
+    "name": "Glamping Bambu Premium",
+    "type": "glamping",
+    "price": "Rp 900.000",
+    "capacity": "2-4 orang",
+    "description": "Glamping unik dengan konsep bambu tradisional namun fasilitas modern. Pengalaman menginap yang autentik di tengah alam.",
+    "features": ["AC", "Private Bathroom", "Breakfast", "Bamboo Design", "WiFi", "Mini Fridge"],
+    "mainImage": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    "gallery": [
+      "https://images.unsplash.com/photo-1572986893272-9b2b7a4bc0b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1633123353036-61bcad18fb68?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://images.unsplash.com/photo-1526491109672-74240d35c21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+    ]
+  }
+]

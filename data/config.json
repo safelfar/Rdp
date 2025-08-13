@@ -1,0 +1,15 @@
+{
+  "siteInfo": {
+    "title": "Pesona Glamping Tawangmangu",
+    "description": "Villa & Glamping Mewah di Pleseran",
+    "tagline": "Nikmati pengalaman menginap mewah di tengah keindahan alam Pleseran"
+  },
+  "contact": {
+    "whatsapp": "6282241819991",
+    "email": "info@pesonaglamping.com",
+    "address": "Pleseran, Tawangmangu, Karanganyar, Jawa Tengah"
+  },
+  "hero": {
+    "backgroundImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+  }
+}
